@@ -26,4 +26,5 @@ The CSV file summerizing STEPS method in Figures 1 and 2 of Bi et al., 2018 with
 * sd_SV: Standard derivation of estimated g1[1] for 10,000 replications.
 * mean.se_SV: Mean value of estimated se(g1[1]) from Fisher information for 10,000 replications
 
+This file can be reproduced based on STEPS-example.R by setting n.rep=10000, randome.seed=1 and other parameters as g0=b0=0, g1[2]=b1[2]=0.4, sd1=sd2=1, maf=0.3, sample size = 1000. 
 
