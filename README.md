@@ -15,7 +15,7 @@ The CSV file correponding to results of the example simulation in "STEPS-example
 The CSV file correponding to results of the example simulation in "STEPS-example.R" given binary secodnary trait.
 
 ## tables-0.05.csv
-The CSV file summerizing STEPS method in Figures 1 and 2 of Bi et al., 2018 with 10,000 replications. This file includes the following columns.
+The CSV file summerizing STEPS method results in Figures 1 and 2 of Bi et al., 2018. This file includes the following columns.
 * st: "b" for "binary" and "c" for continuous
 * g1: Parameter g1[1] to characterize effect of genotype on secondary trait. More details are in 'Details' of help(data.simu). 
 * b1: Parameter b1[1] to characterize effect of genotype on primary trait. More details are in 'Details' of help(data.simu).
@@ -27,4 +27,15 @@ The CSV file summerizing STEPS method in Figures 1 and 2 of Bi et al., 2018 with
 * mean.se_SV: Mean value of estimated se(g1[1]) from Fisher information for 10,000 replications
 
 This file can be reproduced based on STEPS-example.R by setting n.rep=10000, randome.seed=1 and other parameters as g0=b0=0, g1[2]=b1[2]=0.4, sd1=sd2=1, maf=0.3, sample size = 1000. 
+
+## real-data-simu
+
+### real-data-simu.csv
+The CSV file is a dataset with 980 samples and 1000 SNPs to simulate BEN dataset. Here only samples whose primary trait is on 1-7th and 85-95th are retained.
+
+### real-data-analyze.R
+The R code to analyze real-data-simu.csv
+
+### real-data-out.csv
+The CSV file with analysis output of STEPS method for real-data-simu.csv.
 
