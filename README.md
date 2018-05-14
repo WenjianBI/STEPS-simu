@@ -1,5 +1,5 @@
 # STEPS-simu
-Examples to illustrate how to apply STEPS. The sub-function and an example can be seen in STEPS-example.R and the example results can be seen in out-steps.continous.csv and out-steps-binary.csv.
+Examples to illustrate how to apply STEPS package. The sub-function and an example can be seen in STEPS-example.R and the example results can be seen in out-steps.continous.csv and out-steps-binary.csv.
 
 ### STEPS-example.R
 An R file including codes to
