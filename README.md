@@ -31,7 +31,12 @@ This file can be reproduced based on STEPS-example.R by setting n.rep=10000, ran
 ## real-data-simu
 
 ### real-data-simu.csv
-The CSV file is a dataset with 980 samples and 1000 SNPs to simulate BEN dataset. Here only samples whose primary trait is on 1-7th and 85-95th are retained.
+The CSV file is a dataset with 980 samples and 1000 SNPs to simulate BEN dataset. Here only samples whose primary trait is on 1-7th and 85-95th are retained. The dataset includes the following columns:
+* Y: primary trait
+* Z: secondary trait
+* Age: age as covariate
+* Gender: gender as covariate
+* SNP1-SNP100: genotype of SNPs 1-100
 
 ### real-data-analyze.R
 The R code to analyze real-data-simu.csv
