@@ -17,13 +17,13 @@ The CSV file correponding to results of the example simulation in "STEPS-example
 ### tables-0.05.csv
 The CSV file summerizing STEPS method in Figures 1 and 2 of Bi et al., 2018 with 10,000 replications. This file includes the following columns.
 * st: "b" for "binary" and "c" for continuous
-* g1: $\gamma_1$
-* b1: beta1
-* b3: beta3
-* qntl: 
-* toe_SV
-* para_SV
-* sd_SV
-* mean.se_SV
+* g1: Parameter g1[1] to characterize effect of genotype on secondary trait. More details are in 'Details' of help(data.simu). 
+* b1: Parameter b1[1] to characterize effect of genotype on primary trait. More details are in 'Details' of help(data.simu).
+* b3: Parameter b1[3] to characterize effect of secondary trait on primary trait. More details are in 'Details' of help(data.simu).
+* qntl: See 'Details' of help(data.simu).
+* toe_SV: Proportion of replications with p-value less than 0.05 for 10,000 replications.
+* para_SV: Mean value of estimated g1[1] for 10,000 replications
+* sd_SV: Standard derivation of estimated g1[1] for 10,000 replications.
+* mean.se_SV: Mean value of estimated se(g1[1]) from Fisher information for 10,000 replications
 
 
