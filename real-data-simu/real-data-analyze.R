@@ -3,7 +3,8 @@
 library(devtools)   # author version: 1.13.5
 install_github("WenjianBi/STEPS")
 
-real.data.simu <- read.csv("STEPS-simu/real-data-simu/real-data-simu.csv")
+# real.data.simu has been loaded into R when installing the STEPS package
+# More information about real.data.simu can be seen in https://github.com/WenjianBI/STEPS-simu/blob/master/real-data-simu/real-data-simu.csv
 
 SNPs=grep("SNP",colnames(real.data.simu),value = T)
 
@@ -25,4 +26,5 @@ out.steps=as.data.frame(out.steps)
 out.steps=cbind(SNPs,out.steps)
 colnames(out.steps)=c("SNP","pval","est-par","est-var")
 
-write.csv("STEPS-simu/real-data-simu/real-data-out.csv",row.names = F)
+head(out.steps)
+# Output results can be seen in https://github.com/WenjianBI/STEPS-simu/blob/master/real-data-simu/real-data-out.csv
