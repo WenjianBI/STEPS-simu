@@ -31,7 +31,7 @@ This file can be reproduced based on STEPS-example.R by setting n.rep=10000, ran
 ## real-data-simu
 
 ### real-data-simu.csv
-The CSV file is a simulated dataset with 980 samples to mimic the study design of BEN GWAS dataset (https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000507.v1.p1). Here we only simulated 100 SNPs and retained samples whose primary trait is on 1-7th and 85-95th. The dataset is automatically loaded into R when installing the STEPS package. It includes the following columns:
+The CSV file is a simulated dataset with 980 samples to mimic the study design of BEN GWAS data (https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000507.v1.p1). Here we only simulated 100 SNPs and retained samples whose primary trait is on 1-7th and 85-95th. The dataset is automatically loaded into R when installing the STEPS package. It includes the following columns:
 * Y: primary trait
 * Z: secondary trait
 * Age: age as covariate
