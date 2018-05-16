@@ -42,5 +42,9 @@ The CSV file is a simulated dataset with 980 samples to mimic the study design o
 The R code to analyze real-data-simu.csv
 
 ### real-data-out.csv
-The CSV file with analysis output of STEPS method for real-data-simu.csv.
+The CSV file with analysis output of STEPS method for real-data-simu.csv. The file includes four columns:
+* SNP: SNP id
+* pval: p-values to associate SNP with secondary trait
+* est-par: estimated parameter of SNP effect on secondary trait
+* est-var: estimated variance of SNP effect on secodnary trait from Fisher information matrix
 
